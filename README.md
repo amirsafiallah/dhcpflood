@@ -12,7 +12,7 @@ How It Works
 - Creates a DHCP Request packet with that IP and random MAC
 - Broadcasts
 - Waits for receiving ACK/NACK from DHCP Server
-- Picks the next IP address from the ip range and repeat steps again.
+- Picks the next IP address from the ip range and repeats steps again.
 
 The steps explained above, causes an starvation in DHCP IP assignment.
 So DHCP won't work any more.
